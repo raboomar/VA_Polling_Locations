@@ -14,3 +14,7 @@
   .listItem:hover {
     background-color: #f0f0f0;
   }
+  .selected {
+    background-color: #d0f0c0;
+    border-color: #a0d0a0;
+  }

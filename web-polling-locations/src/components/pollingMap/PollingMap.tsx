@@ -83,7 +83,7 @@ const PollingMap: React.FC = () => {
   ))}
         </GoogleMap>
       </div>
-      <LocationList locations={locations} onLocationClick={handleLocationClick} />
+      <LocationList locations={locations} onLocationClick={handleLocationClick} selectedId={selectedLocation?.properties.OBJECTID ?? null} />
     </div>
   );
 };

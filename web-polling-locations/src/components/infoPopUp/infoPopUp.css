@@ -1,0 +1,22 @@
+.infoWindow {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    max-width: 200px;
+  
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .address {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .details {
+    margin: 2px 0;
+    font-size: 12px;
+  }
