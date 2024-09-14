@@ -39,9 +39,10 @@ jobs:
 
       - name: Deploy to S3
         if: success()
-        run: aws s3 sync ./web-polling-locations/build s3://${{ secrets.S3_BUCKET_NAME }} --delete --no-acl
+        run: aws s3 sync ./web-polling-locations/build s3://${{ secrets.AWS_WEB_S3_BUCKET }}
 
-      - name: Invalidate CloudFront cache
-        if: success()
-        run: |
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+    #   - name: Invalidate CloudFront cache
+    #     if: success()
+    #     run: |
+    #       aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+
