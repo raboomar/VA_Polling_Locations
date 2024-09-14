@@ -21,12 +21,14 @@ jobs:
         run: npm install
         working-directory: web-polling-locations
 
-      - name: Build
-        run: npm run build
+      - name: Build React app with Google Maps API Key
+        run: |
+          echo "REACT_APP_GOOGLE_MAPS_API_KEY=${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}" > web-polling-locations/.env
+          npm run build
         working-directory: web-polling-locations
 
       - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.7
+        uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --delete --exact-timestamps
         env:
