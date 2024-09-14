@@ -4,6 +4,7 @@ import { GoogleMap, MarkerF, useLoadScript } from '@react-google-maps/api';
 import Loader from '../loader/Loader'; 
 import { PollingLocation } from '../../types/pollingLocation';
 import { fetchPollingLocations } from '../../utils/pollingLocationService'; 
+import LocationList from '../locationList/LocationList';
 
 const INITIAL_CENTER = { lat: 36.85, lng: -76.2 };
 const INITIAL_ZOOM = 12;
@@ -74,6 +75,7 @@ const PollingMap: React.FC = () => {
           ))}
         </GoogleMap>
       </div>
+      <LocationList locations={locations} onLocationClick={handleLocationClick} />
     </div>
   );
 };
