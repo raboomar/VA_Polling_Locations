@@ -28,6 +28,24 @@ This project is deployed to AWS with the following steps:
 3. **CloudFront**: AWS CloudFront is used for content delivery, ensuring low latency and high availability for users.
 4. **Environment Variables**: API keys and other sensitive data are managed through environment variables to ensure secure and proper configuration.
 
----
+## Live Application
 
-This project demonstrates my ability to create a mobile-friendly web application integrated with Google Maps, implement cloud deployment solutions using AWS, and automate workflows with GitHub Actions. I look forward to continuing to build on these skills and delivering scalable, user-friendly applications.
+You can view the live application here: [Polling Locations App](https://d12x3uvpe6slnc.cloudfront.net/)
+
+## Running Locally
+
+To run the application locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone git@github.com:raboomar/VA_Polling_Locations.git
+
+# Change directory into the project folder
+cd web-polling-locations
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
