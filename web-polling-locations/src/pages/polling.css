@@ -1,0 +1,41 @@
+.pollingPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .title {
+    margin: 20px 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+  }
+  
+  .mapContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .listContainerWrapper {
+    max-height: 300px; 
+    overflow-y: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .pollingPage {
+      flex-direction: row;
+    }
+  
+    .mapContainer {
+      flex: 1;
+      max-width: 100%;
+    }
+  
+    .listContainerWrapper {
+      flex: 1;
+      max-height: 100vh;
+    }
+  }
