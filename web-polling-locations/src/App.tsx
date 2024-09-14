@@ -1,11 +1,14 @@
 import './App.css';
-import PollingMap from './components/pollingMap/PollingMap';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import PollingLocations from './pages/PollingLocations';
 
 function App() {
   return (
-    <div>
-<PollingMap/>
-    </div>
+<Router>
+      <Routes>
+        <Route path="*" element={<PollingLocations />} />
+      </Routes>
+    </Router>
   );
 }
 

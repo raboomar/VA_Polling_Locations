@@ -4,17 +4,17 @@ import { PollingLocation } from '../../types/pollingLocation'; // Import the upd
 
 interface InfoWindowComponentProps {
   location: PollingLocation;
-  onClose: () => void;
+
 }
 
-const InfoPopUp: React.FC<InfoWindowComponentProps> = ({ location, onClose }) => {
+const InfoPopUp: React.FC<InfoWindowComponentProps> = ({ location, }) => {
   return (
     <InfoWindowF
       position={{
         lat: location.geometry.coordinates[1],
         lng: location.geometry.coordinates[0],
       }}
-      onCloseClick={onClose}
+ 
       options={{
         pixelOffset: new google.maps.Size(0, -30)
       }}
