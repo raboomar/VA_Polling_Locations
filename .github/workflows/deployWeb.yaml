@@ -21,10 +21,13 @@ jobs:
         run: npm install
         working-directory: web-polling-locations
 
-      - name: Build React app with Google Maps API Key
+      - name: Create .env file with Google Maps API Key
         run: |
+          mkdir -p web-polling-locations
           echo "REACT_APP_GOOGLE_MAPS_API_KEY=${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}" > web-polling-locations/.env
-          npm run build
+
+      - name: Build React app
+        run: npm run build
         working-directory: web-polling-locations
 
       - name: Deploy to S3
