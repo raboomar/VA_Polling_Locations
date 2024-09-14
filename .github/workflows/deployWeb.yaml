@@ -35,7 +35,7 @@ jobs:
         with:
           args: --acl public-read --delete --exact-timestamps
         env:
-          SOURCE_DIR: "./build"
+          SOURCE_DIR: "web-polling-locations/build"
           AWS_S3_BUCKET: ${{ secrets.S3_BUCKET_NAME }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
