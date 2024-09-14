@@ -4,11 +4,12 @@ import PollingMap from '../components/pollingMap/PollingMap';
 import LocationList from '../components/locationList/LocationList'; 
 import { PollingLocation } from '../types/pollingLocation'; 
 import { fetchPollingLocations } from '../utils/pollingLocationService'; 
+import Loader from '../components/loader/Loader';
 
 const PollingLocations: React.FC = () => {
   const [locations, setLocations] = useState<PollingLocation[]>([]);
   const [selectedLocation, setSelectedLocation] = useState<PollingLocation | null>(null);
-
+  const [loading,setLoading] = useState(true)
   useEffect(() => {
     const loadLocations = async () => {
       try {
@@ -16,6 +17,8 @@ const PollingLocations: React.FC = () => {
         setLocations(data);
       } catch (error) {
         console.error('Error loading locations:', error);
+      }finally{
+        setLoading(false)
       }
     };
 
@@ -25,11 +28,13 @@ const PollingLocations: React.FC = () => {
   const handleLocationClick = (location: PollingLocation | null) => {
     setSelectedLocation(location);
   };
-
+  if (loading) return <Loader />;
   return (
     <div>
 
-    <div className="title">Virginia Beach Polling Locations</div>
+    <div className="title"> <h2>
+    Virginia Beach Polling Locations
+      </h2></div>
     <div className="pollingPage">
         
       <div className="mapContainer">
