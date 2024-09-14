@@ -39,7 +39,7 @@ jobs:
 
       - name: Deploy to S3
         if: success()
-        run: aws s3 sync ./web-polling-locations/build s3://${{ secrets.AWS_WEB_S3_BUCKET }} --delete --no-acl
+        run: aws s3 sync ./web-polling-locations/build s3://${{ secrets.AWS_WEB_S3_BUCKET }}
 
       - name: Invalidate CloudFront cache
         if: success()
