@@ -1,10 +1,11 @@
 import './pollingmap.css'
-import React, { useEffect, useState } from 'react';
-import { GoogleMap, MarkerF, useLoadScript } from '@react-google-maps/api';
+import React, { useCallback, useEffect, useState } from 'react';
+import { GoogleMap, InfoWindow, MarkerF, useLoadScript } from '@react-google-maps/api';
 import Loader from '../loader/Loader'; 
 import { PollingLocation } from '../../types/pollingLocation';
 import { fetchPollingLocations } from '../../utils/pollingLocationService'; 
 import LocationList from '../locationList/LocationList';
+import InfoPopUp from '../infoPopUp/InfoPopUp';
 
 const INITIAL_CENTER = { lat: 36.85, lng: -76.2 };
 const INITIAL_ZOOM = 12;
@@ -13,11 +14,11 @@ const PollingMap: React.FC = () => {
   const [locations, setLocations] = useState<PollingLocation[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [map, setMap] = useState<google.maps.Map | null>(null);
-  const [selectedLocation, setSelectedLocation] = useState<PollingLocation | null>(null);
+  const [selectedLocation, setSelectedLocation] = useState<PollingLocation| null>(null);
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY!, 
   });
-
+  const [infoWindowShown, setInfoWindowShown] = useState(false);
   useEffect(() => {
 
     const loadLocations = async () => {
@@ -51,8 +52,12 @@ const PollingMap: React.FC = () => {
       map.setZoom(16);
     }
     setSelectedLocation(location);
+    
+    setInfoWindowShown(true)
   };
-
+  const handleCloseInfoWindow = () => {
+    setSelectedLocation(null);
+  };
   if (!isLoaded || loading) return <Loader />; 
 
   return (
@@ -66,13 +71,16 @@ const PollingMap: React.FC = () => {
           onLoad={(map) => setMap(map)}
         >
           {locations.map((location) => (
-            <MarkerF
-              key={location.properties.OBJECTID}
-              position={{ lat: location.geometry.coordinates[1], lng: location.geometry.coordinates[0] }} 
-              title={location.properties.PRECINCT_L}
-              onClick={() => handleLocationClick(location)} 
-            />
-          ))}
+      <MarkerF
+      key={location.properties.OBJECTID}
+      position={{ lat: location.geometry.coordinates[1], lng: location.geometry.coordinates[0] }}
+      onClick={() => handleLocationClick(location)}
+    >
+      {selectedLocation?.properties.OBJECTID === location.properties.OBJECTID && (
+     <InfoPopUp location={location} onClose={handleCloseInfoWindow} />
+      )}
+    </MarkerF>
+  ))}
         </GoogleMap>
       </div>
       <LocationList locations={locations} onLocationClick={handleLocationClick} />
