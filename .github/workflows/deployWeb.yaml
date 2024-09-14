@@ -12,8 +12,8 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.ACCESS_KEY }}
-          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Checkout
@@ -27,7 +27,7 @@ jobs:
       - name: Set API key
         working-directory: ./web-polling-locations
         run: |
-          echo "REACT_APP_GOOGLE_MAPS_API_KEY='${{ secrets.GOOGLE_MAPS_API_KEY }}'" > .env
+          echo "REACT_APP_GOOGLE_MAPS_API_KEY='${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}'" > .env
 
       - name: Install dependencies
         working-directory: ./web-polling-locations
@@ -39,9 +39,9 @@ jobs:
 
       - name: Deploy to S3
         if: success()
-        run: aws s3 sync ./web-polling-locations/build s3://${{ secrets.AWS_WEB_S3_BUCKET }} --delete --no-acl
+        run: aws s3 sync ./web-polling-locations/build s3://${{ secrets.S3_BUCKET_NAME }} --delete --no-acl
 
       - name: Invalidate CloudFront cache
         if: success()
         run: |
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
