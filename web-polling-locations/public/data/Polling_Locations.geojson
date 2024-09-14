@@ -1,0 +1,1972 @@
+{
+  "type": "FeatureCollection",
+  "name": "Polling_Locations",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "PCTNO": 20,
+        "PCTNAME": "Precinct 20",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Bayside ES",
+        "PRECINCT_A": "5649 Bayside Rd  23455",
+        "TELEPHONE": "648-2080",
+        "PCT_ID": "020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.179562019811328, 36.895291195062789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "PCTNO": 81,
+        "PCTNAME": "Precinct 81",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Salem ES",
+        "PRECINCT_A": "3961 Salem Lakes Blvd  23456",
+        "TELEPHONE": "648-3680",
+        "PCT_ID": "081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.121384835799347, 36.773253562120857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "PCTNO": 5,
+        "PCTNAME": "Precinct 5",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Mount Olive Baptist Church",
+        "PRECINCT_A": "310 N Birdneck Rd  23451",
+        "TELEPHONE": "422-3797",
+        "PCT_ID": "005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.995636039247671, 36.842842402287545]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "PCTNO": 31,
+        "PCTNAME": "Precinct 31",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Red Mill ES",
+        "PRECINCT_A": "1860 Sandbridge Rd  23456",
+        "TELEPHONE": "648-3560",
+        "PCT_ID": "031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.000086345267476, 36.748054839373637]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "PCTNO": 30,
+        "PCTNAME": "Precinct 30",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Seatack ES",
+        "PRECINCT_A": "912 S. Birdneck Rd",
+        "TELEPHONE": null,
+        "PCT_ID": "030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.992853129464365, 36.812589095260691]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "PCTNO": 99,
+        "PCTNAME": "Precinct 99",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Parkway ES",
+        "PRECINCT_A": "4180 O Hare Dr",
+        "TELEPHONE": "648-3280",
+        "PCT_ID": "099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.122687095618957, 36.799157559368297]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "PCTNO": 13,
+        "PCTNAME": "Precinct 13",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Windsor Woods ES",
+        "PRECINCT_A": "233 Presidential Blvd  23452",
+        "TELEPHONE": "648-4160",
+        "PCT_ID": "013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.103534266363212, 36.831549475223802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "PCTNO": 19,
+        "PCTNAME": "Precinct 19",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Bayside Church of Christ",
+        "PRECINCT_A": "5025 Shell Rd 23455",
+        "TELEPHONE": "460-4754",
+        "PCT_ID": "019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.148112616161967, 36.894182796022974]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "PCTNO": 33,
+        "PCTNAME": "Precinct 33",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Back Bay Christian Assembly",
+        "PRECINCT_A": "1212 Princess Anne Rd  23457",
+        "TELEPHONE": "426-7943",
+        "PCT_ID": "033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.028781158522875, 36.666554697085999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "PCTNO": 84,
+        "PCTNAME": "Precinct 84",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Tallwood ES",
+        "PRECINCT_A": "2025 Kempsville Rd  23464",
+        "TELEPHONE": "648-3840",
+        "PCT_ID": "084"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.197031871551957, 36.779244988270563]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "PCTNO": 24,
+        "PCTNAME": "Precinct 24",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "St. Andrews United Methodist Church",
+        "PRECINCT_A": "717 Tucson Rd  23462",
+        "TELEPHONE": "467-1047",
+        "PCT_ID": "024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.146787899358557, 36.817831281466241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "PCTNO": 88,
+        "PCTNAME": "Precinct 88",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Hope Haven",
+        "PRECINCT_A": "3000 North Landing Rd  23456",
+        "TELEPHONE": "427-1500",
+        "PCT_ID": "088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.077888860696547, 36.749825616944847]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "PCTNO": 35,
+        "PCTNAME": "Precinct 35",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Kellam HS",
+        "PRECINCT_A": "2665 West Neck Rd 23456",
+        "TELEPHONE": "648-5100",
+        "PCT_ID": "035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.062662847822068, 36.743169766394999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "PCTNO": 27,
+        "PCTNAME": "Precinct 27",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Kempsville MS",
+        "PRECINCT_A": "860 Churchill Dr 23464",
+        "TELEPHONE": null,
+        "PCT_ID": "027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.155057196077763, 36.812616174234606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "PCTNO": 91,
+        "PCTNAME": "Precinct 91",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Larkspur MS",
+        "PRECINCT_A": "4696 Princess Anne Rd 23462",
+        "TELEPHONE": null,
+        "PCT_ID": "091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.141700502749345, 36.815347109171704]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "PCTNO": 96,
+        "PCTNAME": "Precinct 96",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Freedom Fellowship ",
+        "PRECINCT_A": "836 Regency Dr 23454",
+        "TELEPHONE": "572-8476",
+        "PCT_ID": "096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.033884628687474, 36.853888531822427]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "PCTNO": 26,
+        "PCTNAME": "Precinct 26",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Kempsville Presbyterian Church",
+        "PRECINCT_A": "805 Kempsville Rd 23464",
+        "TELEPHONE": "495-1913",
+        "PCT_ID": "026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.165178734471183, 36.816524593392316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "PCTNO": 62,
+        "PCTNAME": "Precinct 62",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Restoration Church at Landstown",
+        "PRECINCT_A": "3220 Monet Dr  23453",
+        "TELEPHONE": "468-6509",
+        "PCT_ID": "062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.082160630146902, 36.780532290468713]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 19,
+        "PCTNO": 72,
+        "PCTNAME": "Precinct 72",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "W T Cooke ES   ",
+        "PRECINCT_A": "1501 Mediterranean Ave",
+        "TELEPHONE": "648-2320",
+        "PCT_ID": "072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.979802320575033, 36.842426164263514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 20,
+        "PCTNO": 48,
+        "PCTNAME": "Precinct 48",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "WAVE Church",
+        "PRECINCT_A": "1000 N Great Neck Rd 23454",
+        "TELEPHONE": "481-5005",
+        "PCT_ID": "048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.04315749359769, 36.864819059460537]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 21,
+        "PCTNO": 68,
+        "PCTNAME": "Precinct 68",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Providence ES",
+        "PRECINCT_A": "4968 Providence Rd 23464",
+        "TELEPHONE": "648-3520",
+        "PCT_ID": "068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.15484332607322, 36.810199737977264]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 22,
+        "PCTNO": 54,
+        "PCTNAME": "Precinct 54",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Landstown HS",
+        "PRECINCT_A": "2001 Concert Dr 23456",
+        "TELEPHONE": "648-5500",
+        "PCT_ID": "054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.100929116106656, 36.780204348899666]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 23,
+        "PCTNO": 37,
+        "PCTNAME": "Precinct 37",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Bayside Baptist Church",
+        "PRECINCT_A": "1920 Pleasure House Rd  23455",
+        "TELEPHONE": "460-2481",
+        "PCT_ID": "037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.136371378480362, 36.900029747903233]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 24,
+        "PCTNO": 1,
+        "PCTNAME": "Precinct 1",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Galilee Episcopal Church",
+        "PRECINCT_A": "3928 Pacific Ave  23451",
+        "TELEPHONE": "428-3573",
+        "PCT_ID": "001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.981989126302096, 36.867415873196698]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 25,
+        "PCTNO": 94,
+        "PCTNAME": "Precinct 94",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Plaza Middle School",
+        "PRECINCT_A": "3080 S Lynnhaven Rd 23452",
+        "TELEPHONE": null,
+        "PCT_ID": "094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.077204083040314, 36.830110984534173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 26,
+        "PCTNO": 21,
+        "PCTNAME": "Precinct 21",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Bettie F. Williams ES",
+        "PRECINCT_A": "892 Newtown Rd  23462",
+        "TELEPHONE": "648-4080",
+        "PCT_ID": "021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.163955809365874, 36.864018197073669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 27,
+        "PCTNO": 45,
+        "PCTNAME": "Precinct 45",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "White Oaks ES",
+        "PRECINCT_A": "960 Windsor Oaks Blvd  23462",
+        "TELEPHONE": "648-4040",
+        "PCT_ID": "045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.122887055211322, 36.803707110906664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 28,
+        "PCTNO": 6,
+        "PCTNAME": "Precinct 6",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Alanton ES",
+        "PRECINCT_A": "1441 Stephens Rd  23454",
+        "TELEPHONE": "648-2000",
+        "PCT_ID": "006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.031301082015176, 36.883067400166645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 29,
+        "PCTNO": 92,
+        "PCTNAME": "Precinct 92",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Lynnhaven United Methodist Church",
+        "PRECINCT_A": "1033 Little Neck Rd  23452",
+        "TELEPHONE": "340-5682",
+        "PCT_ID": "092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.090567769753207, 36.869039964270691]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 30,
+        "PCTNO": 57,
+        "PCTNAME": "Precinct 57",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Saint Matthew Catholic Church",
+        "PRECINCT_A": "3314 Sandra Ln",
+        "TELEPHONE": "7574206310",
+        "PCT_ID": "057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.220264289177734, 36.82340447797597]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 31,
+        "PCTNO": 49,
+        "PCTNAME": "Precinct 49",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "John B Dey ES",
+        "PRECINCT_A": "1900 N. Great Neck Road",
+        "TELEPHONE": null,
+        "PCT_ID": "049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.062351197097172, 36.897832901065854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 32,
+        "PCTNO": 63,
+        "PCTNAME": "Precinct 63",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Ocean Lakes HS",
+        "PRECINCT_A": "885 Schumann Dr  23454",
+        "TELEPHONE": "648-5550",
+        "PCT_ID": "063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.981478702659345, 36.77175337564816]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 33,
+        "PCTNO": 82,
+        "PCTNAME": "Precinct 82",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Christopher Farms ES",
+        "PRECINCT_A": "2828 Pleasant Acres Dr  23453",
+        "TELEPHONE": "648-2240",
+        "PCT_ID": "082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.06639192524635, 36.768213638242926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 34,
+        "PCTNO": 100,
+        "PCTNAME": "Precinct 100",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Tabernacle United Methodist Church",
+        "PRECINCT_A": "1265 Sandbridge Road 23456",
+        "TELEPHONE": "426-2396",
+        "PCT_ID": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.983757996233123, 36.730820809558153]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 35,
+        "PCTNO": 12,
+        "PCTNAME": "Precinct 12",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Lynnhaven ES",
+        "PRECINCT_A": "210 Dillon Dr  23452",
+        "TELEPHONE": "648-3000",
+        "PCT_ID": "012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.085032071596402, 36.834723134102902]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 36,
+        "PCTNO": 41,
+        "PCTNAME": "Precinct 41",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "College Park ES",
+        "PRECINCT_A": "1110 Bennington Rd 23464",
+        "TELEPHONE": "648-2280",
+        "PCT_ID": "041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.211447339935475, 36.804495302135308]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 37,
+        "PCTNO": 46,
+        "PCTNAME": "Precinct 46",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Green Run ES",
+        "PRECINCT_A": "1200 Green Garden Cir  23453",
+        "TELEPHONE": "648-2560",
+        "PCT_ID": "046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.090923101058777, 36.79996667466456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 38,
+        "PCTNO": 77,
+        "PCTNAME": "Precinct 77",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Plaza Annex",
+        "PRECINCT_A": "641 Carriage Hill Rd 23452",
+        "TELEPHONE": null,
+        "PCT_ID": "077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.077356749027899, 36.818381082038606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 39,
+        "PCTNO": 70,
+        "PCTNAME": "Precinct 70",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Corporate Landing MS",
+        "PRECINCT_A": "1597 Corporate Landing Pkwy 23454",
+        "TELEPHONE": "648-4500",
+        "PCT_ID": "070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.012030994767088, 36.787376800962896]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 40,
+        "PCTNO": 83,
+        "PCTNAME": "Precinct 83",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Strawbridge ES",
+        "PRECINCT_A": "2553 Strawbridge Rd  23456",
+        "TELEPHONE": "648-3800",
+        "PCT_ID": "083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.018222105551814, 36.766246795060901]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 41,
+        "PCTNO": 16,
+        "PCTNAME": "Precinct 16",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Bayside Sixth Grade Campus",
+        "PRECINCT_A": "4722 Jericho Rd  23462",
+        "TELEPHONE": "648-4650",
+        "PCT_ID": "016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.138354074398436, 36.857362908383614]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 42,
+        "PCTNO": 67,
+        "PCTNAME": "Precinct 67",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Eastern Shore Chapel",
+        "PRECINCT_A": "2020 Laskin Rd  23454",
+        "TELEPHONE": "428-6768",
+        "PCT_ID": "067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.038515292161819, 36.846785542465611]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 43,
+        "PCTNO": 22,
+        "PCTNAME": "Precinct 22",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Point O' View ES",
+        "PRECINCT_A": "5400 Parliament Dr  23462",
+        "TELEPHONE": "490-3925",
+        "PCT_ID": "022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.170447832414581, 36.838496710201007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 44,
+        "PCTNO": 80,
+        "PCTNAME": "Precinct 80",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Kingdom Cathedral",
+        "PRECINCT_A": "3820 Stoneshore Rd 23452",
+        "TELEPHONE": "278-7556",
+        "PCT_ID": "080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.099889156265178, 36.805950004402199]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 45,
+        "PCTNO": 76,
+        "PCTNAME": "Precinct 76",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Thalia Lynn Baptist Church",
+        "PRECINCT_A": "4392 Virginia Beach Blvd  23462",
+        "TELEPHONE": "499-0557",
+        "PCT_ID": "076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.125890339700121, 36.84429179424032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 46,
+        "PCTNO": 3,
+        "PCTNAME": "Precinct 3",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Ocean Lakes ES",
+        "PRECINCT_A": "1616 Upton Dr  23454",
+        "TELEPHONE": "648-3200",
+        "PCT_ID": "003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.991065026603124, 36.784638413550041]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 47,
+        "PCTNO": 4,
+        "PCTNAME": "Precinct 4",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Virginia Beach Community Chapel",
+        "PRECINCT_A": "1261 Laskin Rd  23451",
+        "TELEPHONE": "428-1881",
+        "PCT_ID": "004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.001807502978821, 36.852330224788076]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 48,
+        "PCTNO": 61,
+        "PCTNAME": "Precinct 61",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Ebenezer Baptist Church",
+        "PRECINCT_A": "875 Baker Rd 23462",
+        "TELEPHONE": "490-9690",
+        "PCT_ID": "061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.182212843111884, 36.87220411402896]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 49,
+        "PCTNO": 98,
+        "PCTNAME": "Precinct 98",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Windsor Oak ES",
+        "PRECINCT_A": "4141 Holland Rd 23452",
+        "TELEPHONE": null,
+        "PCT_ID": "098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.103233056756864, 36.823560514454925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 50,
+        "PCTNO": 10,
+        "PCTNAME": "Precinct 10",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "All Saints' Episcopal Church",
+        "PRECINCT_A": "1969 Woodside Ln  23454",
+        "TELEPHONE": "481-0577",
+        "PCT_ID": "010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.069725235499163, 36.901431795272913]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 51,
+        "PCTNO": 56,
+        "PCTNAME": "Precinct 56",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "St. Aidan's Episcopal Church",
+        "PRECINCT_A": "3201 Edinburgh Dr  23452",
+        "TELEPHONE": " 340-6459",
+        "PCT_ID": "056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.082583314437557, 36.847973626254799]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 52,
+        "PCTNO": 97,
+        "PCTNAME": "Precinct 97",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "San Lorenzo Spititual Center",
+        "PRECINCT_A": "4556 Indian River Rd 23456",
+        "TELEPHONE": "471-8949",
+        "PCT_ID": "097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.148408123262882, 36.765549705193401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 53,
+        "PCTNO": 8,
+        "PCTNAME": "Precinct 8",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "London Bridge Baptist Church",
+        "PRECINCT_A": "2460 Potters Rd  23454",
+        "TELEPHONE": "486-7900",
+        "PCT_ID": "008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.054854996799691, 36.837029074772623]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 54,
+        "PCTNO": 86,
+        "PCTNAME": "Precinct 86",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Haygood United Methodist Church",
+        "PRECINCT_A": "4713 Haygood Rd  23455",
+        "TELEPHONE": "499-1269",
+        "PCT_ID": "086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.139820610032373, 36.872680801012095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 55,
+        "PCTNO": 89,
+        "PCTNAME": "Precinct 89",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "New Covenant Presbyterian Church",
+        "PRECINCT_A": "1552 Kempsville Rd  23464",
+        "TELEPHONE": "467-5945",
+        "PCT_ID": "089"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.17984182975097, 36.790298745006744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 56,
+        "PCTNO": 32,
+        "PCTNAME": "Precinct 32",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Oak Grove Baptist Church",
+        "PRECINCT_A": "691 Princess Anne Rd  23457",
+        "TELEPHONE": "426-2782",
+        "PCT_ID": "032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.035516865762091, 36.61456818701059]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 57,
+        "PCTNO": 2,
+        "PCTNAME": "Precinct 2",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Museum of Contemporary Art ",
+        "PRECINCT_A": "2200 Parks Ave  23451",
+        "TELEPHONE": "425-0000",
+        "PCT_ID": "002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.987528064682138, 36.848673610715068]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 58,
+        "PCTNO": 7,
+        "PCTNAME": "Precinct 7",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "King's Grant Presbyterian Church",
+        "PRECINCT_A": "745 Little Neck Rd  23452",
+        "TELEPHONE": "340-2840",
+        "PCT_ID": "007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.088280687785925, 36.858211627436035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 59,
+        "PCTNO": 71,
+        "PCTNAME": "Precinct 71",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Salem HS",
+        "PRECINCT_A": "1993 Sun Devil Dr  23464",
+        "TELEPHONE": "648-5650",
+        "PCT_ID": "071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.143166969213013, 36.783047726413415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 60,
+        "PCTNO": 50,
+        "PCTNAME": "Precinct 50",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "The Gathering at Scott Memorial UMC",
+        "PRECINCT_A": "409 First Colonial Rd  23454",
+        "TELEPHONE": "428-3720",
+        "PCT_ID": "050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.021287477999778, 36.84449510267099]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 61,
+        "PCTNO": 14,
+        "PCTNAME": "Precinct 14",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Malibu ES",
+        "PRECINCT_A": "3632 Edinburgh Dr  23452",
+        "TELEPHONE": "648-3040",
+        "PCT_ID": "014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.098780037824909, 36.847008700826031]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 62,
+        "PCTNO": 85,
+        "PCTNAME": "Precinct 85",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Three Oaks ES",
+        "PRECINCT_A": "2201 Elson Green Ave  23456",
+        "TELEPHONE": "648-3960",
+        "PCT_ID": "085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.01364805480496, 36.753569303156475]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 63,
+        "PCTNO": 25,
+        "PCTNAME": "Precinct 25",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Fairfield ES",
+        "PRECINCT_A": "5428 Providence Road 23464",
+        "TELEPHONE": "648-2480",
+        "PCT_ID": "025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.178876795692375, 36.816321973641273]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 64,
+        "PCTNO": 59,
+        "PCTNAME": "Precinct 59",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Shelton Park ES",
+        "PRECINCT_A": "1700 Shelton Rd  23455",
+        "TELEPHONE": "648-3760",
+        "PCT_ID": "059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.147414015230112, 36.898712745506977]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 65,
+        "PCTNO": 74,
+        "PCTNAME": "Precinct 74",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Green Run Baptist Church",
+        "PRECINCT_A": "1201 S Rosemont Rd  23453",
+        "TELEPHONE": "427-5087",
+        "PCT_ID": "074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.099740218286016, 36.800127832201348]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 66,
+        "PCTNO": 109,
+        "PCTNAME": "Precinct 109",
+        "SENATE_DIST": null,
+        "HOUSE_DIST": null,
+        "PRECINCT_L": "Voter Registration & Elections",
+        "PRECINCT_A": "2449 Princess Anne Rd 23456",
+        "TELEPHONE": null,
+        "PCT_ID": "109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.056759286861478, 36.75297545000376]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 67,
+        "PCTNO": 47,
+        "PCTNAME": "Precinct 47",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "King's Grant ES",
+        "PRECINCT_A": "612 N Lynnhaven Road",
+        "TELEPHONE": "648-2800",
+        "PCT_ID": "047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.086621866867091, 36.853901876395227]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 68,
+        "PCTNO": 18,
+        "PCTNAME": "Precinct 18",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Independence MS",
+        "PRECINCT_A": "1370 Dunstan Ln  23455",
+        "TELEPHONE": "648-4600",
+        "PCT_ID": "018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.125510388267543, 36.881009794751279]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 69,
+        "PCTNO": 52,
+        "PCTNAME": "Precinct 52",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Providence Presbyterian Church",
+        "PRECINCT_A": "5497 Providence Rd  23464",
+        "TELEPHONE": "420-6159",
+        "PCT_ID": "052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.180967519413286, 36.814346330503191]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 70,
+        "PCTNO": 73,
+        "PCTNAME": "Precinct 73",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Green Run HS",
+        "PRECINCT_A": "1700 Dahlia Dr  23453",
+        "TELEPHONE": "648-5350",
+        "PCT_ID": "073"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.111478215744398, 36.80466926745256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 71,
+        "PCTNO": 9,
+        "PCTNAME": "Precinct 9",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Great Neck Baptist Church",
+        "PRECINCT_A": "1020 General Jackson Dr",
+        "TELEPHONE": null,
+        "PCT_ID": "009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.048406931012792, 36.865449674423104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 72,
+        "PCTNO": 87,
+        "PCTNAME": "Precinct 87",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "New Castle ES",
+        "PRECINCT_A": "4136 Dam Nek Rd 23456",
+        "TELEPHONE": "648-3080",
+        "PCT_ID": "087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.109623995979916, 36.76652191914264]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 73,
+        "PCTNO": 90,
+        "PCTNAME": "Precinct 90",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Morning Star Baptist Church",
+        "PRECINCT_A": "4780 First Court Rd  23455",
+        "TELEPHONE": "464-3663",
+        "PCT_ID": "090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.137135236627685, 36.898712969641913]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 74,
+        "PCTNO": 29,
+        "PCTNAME": "Precinct 29",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Holland ES",
+        "PRECINCT_A": "3340 Holland Rd  23452",
+        "TELEPHONE": "648-2640",
+        "PCT_ID": "029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.087731871046245, 36.804065243271907]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 75,
+        "PCTNO": 42,
+        "PCTNAME": "Precinct 42",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Brandon MS",
+        "PRECINCT_A": "1700 Pope St  23464",
+        "TELEPHONE": "648-4450",
+        "PCT_ID": "042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.192045212917023, 36.792396060341297]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 76,
+        "PCTNO": 39,
+        "PCTNAME": "Precinct 39",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Pembroke ES",
+        "PRECINCT_A": "4622 Jericho Rd  23462",
+        "TELEPHONE": "648-3420",
+        "PCT_ID": "039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.136775790139779, 36.857037741118269]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 77,
+        "PCTNO": 69,
+        "PCTNAME": "Precinct 69",
+        "SENATE_DIST": "7",
+        "HOUSE_DIST": "90",
+        "PRECINCT_L": "Unity Church of Tidewater",
+        "PRECINCT_A": "5580 Shell Rd  23455",
+        "TELEPHONE": "464-0772",
+        "PCT_ID": "069"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.175383978781085, 36.889692364174309]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 78,
+        "PCTNO": 58,
+        "PCTNAME": "Precinct 58",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Glenwood ES",
+        "PRECINCT_A": "2213 Round Hill Dr  23464",
+        "TELEPHONE": "648-2520",
+        "PCT_ID": "058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.138980889159299, 36.773377355902817]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 79,
+        "PCTNO": 36,
+        "PCTNAME": "Precinct 36",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Red Church Steeple",
+        "PRECINCT_A": "245 S. Rosemont Rd 23452",
+        "TELEPHONE": null,
+        "PCT_ID": "036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.096168967670621, 36.831704650973634]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 80,
+        "PCTNO": 60,
+        "PCTNAME": "Precinct 60",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Wave Church",
+        "PRECINCT_A": "2655 Seaboard Rd 23456",
+        "TELEPHONE": "481-5005",
+        "PCT_ID": "060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.030870225750391, 36.744297847220686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 81,
+        "PCTNO": 53,
+        "PCTNAME": "Precinct 53",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Kempsville ES",
+        "PRECINCT_A": "570 Kempsville Road 23464",
+        "TELEPHONE": "648-2720",
+        "PCT_ID": "053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.159807014786324, 36.822663284535984]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 82,
+        "PCTNO": 95,
+        "PCTNAME": "Precinct 95",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Corporate Landing ES",
+        "PRECINCT_A": "1590 Corporate Landing Pkwy 23454",
+        "TELEPHONE": null,
+        "PCT_ID": "095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.007223434148671, 36.787777260030062]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 83,
+        "PCTNO": 44,
+        "PCTNAME": "Precinct 44",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Centerville ES",
+        "PRECINCT_A": "2201 Centerville Tpke  23464",
+        "TELEPHONE": "648-2200",
+        "PCT_ID": "044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.189616827752175, 36.76852753909278]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 84,
+        "PCTNO": 43,
+        "PCTNAME": "Precinct 43",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Salem MS",
+        "PRECINCT_A": "2380 Lynnhaven Pkwy  23464",
+        "TELEPHONE": "648-5000",
+        "PCT_ID": "043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.146029711377295, 36.785891722193497]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 85,
+        "PCTNO": 38,
+        "PCTNAME": "Precinct 38",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Bayside Presbyterian Church",
+        "PRECINCT_A": "1400 Ewell Rd  23455",
+        "TELEPHONE": "460-1188",
+        "PCT_ID": "038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.133311751656933, 36.88407403014984]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 86,
+        "PCTNO": 79,
+        "PCTNAME": "Precinct 79",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Emmanuel Episcopal Church",
+        "PRECINCT_A": "5181 Singleton Way 23462",
+        "TELEPHONE": "499-1271",
+        "PCT_ID": "079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.162404104459853, 36.826627924440331]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 87,
+        "PCTNO": 51,
+        "PCTNAME": "Precinct 51",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Kempsville Area Library",
+        "PRECINCT_A": "832 Kempsville Rd 23464",
+        "TELEPHONE": "385-2627",
+        "PCT_ID": "051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.163095780279164, 36.815918331222122]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 88,
+        "PCTNO": 15,
+        "PCTNAME": "Precinct 15",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Calvary Baptist Church",
+        "PRECINCT_A": "4832 Haygood Rd 23455",
+        "TELEPHONE": "648-3240",
+        "PCT_ID": "015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.145243991829204, 36.872005751623647]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 89,
+        "PCTNO": 65,
+        "PCTNAME": "Precinct 65",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Colonial Baptist Church",
+        "PRECINCT_A": "2221 Centerville Tpke  23464",
+        "TELEPHONE": "479-0755",
+        "PCT_ID": "065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.189256445219755, 36.766567014337639]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 90,
+        "PCTNO": 34,
+        "PCTNAME": "Precinct 34",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Blackwater FS",
+        "PRECINCT_A": "6009 Blackwater Rd  23457",
+        "TELEPHONE": "421-2200",
+        "PCT_ID": "034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.083324826992211, 36.58552060058517]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 91,
+        "PCTNO": 78,
+        "PCTNAME": "Precinct 78",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Indian Lakes ES",
+        "PRECINCT_A": "1240 Homestead Dr 23464",
+        "TELEPHONE": "648-2680",
+        "PCT_ID": "078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.145891408552771, 36.798045658195043]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 92,
+        "PCTNO": 75,
+        "PCTNAME": "Precinct 75",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Lynnhaven Colony Congregational Church",
+        "PRECINCT_A": "2217 W Great Neck Rd  23451",
+        "TELEPHONE": "481-7674",
+        "PCT_ID": "075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.070986780975161, 36.908337532449501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93,
+        "PCTNO": 28,
+        "PCTNAME": "Precinct 28",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Thalia ES",
+        "PRECINCT_A": "421 Thalia Rd  23452",
+        "TELEPHONE": "648-3880",
+        "PCT_ID": "028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.121244128184813, 36.846060656816711]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 94,
+        "PCTNO": 55,
+        "PCTNAME": "Precinct 55",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Virginia Beach Moose Family Center",
+        "PRECINCT_A": "3133 Shipps Corner Rd  23453",
+        "TELEPHONE": "468-4124",
+        "PCT_ID": "055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.077222423943468, 36.792427582874993]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95,
+        "PCTNO": 64,
+        "PCTNAME": "Precinct 64",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "96",
+        "PRECINCT_L": "Rosemont Forest ES",
+        "PRECINCT_A": "1716 Grey Friars Chs  23456",
+        "TELEPHONE": "648-3640",
+        "PCT_ID": "064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.128338333290969, 36.782981171239719]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96,
+        "PCTNO": 23,
+        "PCTNAME": "Precinct 23",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Arrowhead ES",
+        "PRECINCT_A": "5549 Susquehanna Dr  23462",
+        "TELEPHONE": "648-2040",
+        "PCT_ID": "023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.186746040276219, 36.831657636244756]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97,
+        "PCTNO": 66,
+        "PCTNAME": "Precinct 66",
+        "SENATE_DIST": "19",
+        "HOUSE_DIST": "98",
+        "PRECINCT_L": "Princess Anne Rec Center",
+        "PRECINCT_A": "1400 Nimmo Pkwy  23456",
+        "TELEPHONE": "426-0022",
+        "PCT_ID": "066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.02044536131983, 36.764834001995851]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 98,
+        "PCTNO": 11,
+        "PCTNAME": "Precinct 11",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Assoc.Research and Enlightenment",
+        "PRECINCT_A": "215 67th St & Atlantic Ave  23451",
+        "TELEPHONE": "428-3588",
+        "PCT_ID": "011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.989945279296421, 36.893070294433585]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 99,
+        "PCTNO": 106,
+        "PCTNAME": "Precinct 106",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Thalia United Methodist Church",
+        "PRECINCT_A": "4321 Virginia Beach Blvd",
+        "TELEPHONE": null,
+        "PCT_ID": "106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.122518744148181, 36.842916266316578]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 100,
+        "PCTNO": 108,
+        "PCTNAME": "Precinct 108",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "The Gala 417",
+        "PRECINCT_A": "2105 W Great Neck Rd",
+        "TELEPHONE": null,
+        "PCT_ID": "108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.070301529008432, 36.905055124417245]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 101,
+        "PCTNO": 101,
+        "PCTNAME": "Precinct 101",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Luxford ES",
+        "PRECINCT_A": "4808 Haygood Rd",
+        "TELEPHONE": null,
+        "PCT_ID": "101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.143118701834481, 36.872579010439516]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 102,
+        "PCTNO": 102,
+        "PCTNAME": "Precinct 102",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Diamond Springs Elementary School",
+        "PRECINCT_A": "5225 Learning Cir 23462",
+        "TELEPHONE": null,
+        "PCT_ID": "102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.155673248123193, 36.86400290153847]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 103,
+        "PCTNO": 107,
+        "PCTNAME": "Precinct 107",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "99",
+        "PRECINCT_L": "Linkhorn Park Elementary School",
+        "PRECINCT_A": "977 First Colonial Rd",
+        "TELEPHONE": null,
+        "PCT_ID": "107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.027651041962855, 36.859639516316854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 104,
+        "PCTNO": 103,
+        "PCTNAME": "Precinct 103",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "97",
+        "PRECINCT_L": "Kempsville Meadows Elementary School",
+        "PRECINCT_A": "736 Edwin Dr ",
+        "TELEPHONE": null,
+        "PCT_ID": "103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.142265599656923, 36.817090427423615]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 105,
+        "PCTNO": 17,
+        "PCTNAME": "Precinct 17",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Louis R Jones Bayside Rec Center",
+        "PRECINCT_A": "4500 First Court Rd 23455",
+        "TELEPHONE": "460-7540",
+        "PCT_ID": "017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.126596317597063, 36.899199166962319]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 106,
+        "PCTNO": 104,
+        "PCTNAME": "Precinct 104",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Woodstock Elementary School",
+        "PRECINCT_A": "6016 Providence Rd",
+        "TELEPHONE": null,
+        "PCT_ID": "104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.201206799919717, 36.813785301883023]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 107,
+        "PCTNO": 105,
+        "PCTNAME": "Precinct 105",
+        "SENATE_DIST": "20",
+        "HOUSE_DIST": "100",
+        "PRECINCT_L": "Pembroke Meadows Elementary",
+        "PRECINCT_A": "820 Cathedral Dr",
+        "TELEPHONE": null,
+        "PCT_ID": "105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.128271528278233, 36.865188961236967]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 108,
+        "PCTNO": 40,
+        "PCTNAME": "Precinct 40",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Union Baptist Church",
+        "PRECINCT_A": "4608 South Blvd, 23452",
+        "TELEPHONE": null,
+        "PCT_ID": "040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.135030146150442, 36.832686671816205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 109,
+        "PCTNO": 93,
+        "PCTNAME": "Precinct 93",
+        "SENATE_DIST": "22",
+        "HOUSE_DIST": "95",
+        "PRECINCT_L": "Enoch Baptist Church Family Life",
+        "PRECINCT_A": "5685 Herbert Moore Rd 23462",
+        "TELEPHONE": null,
+        "PCT_ID": "093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.17939839797053, 36.86871332384414]
+      }
+    }
+  ]
+}

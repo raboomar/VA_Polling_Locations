@@ -1,8 +1,11 @@
 import './App.css';
+import PollingMap from './components/pollingMap/PollingMap';
 
 function App() {
   return (
-<h2>Web polling locations</h2>
+    <div>
+<PollingMap/>
+    </div>
   );
 }
 
